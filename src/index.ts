@@ -8,6 +8,13 @@ export interface ProgressStateProps {
 	interval?: number;
 }
 
+export interface ProgressState {
+	value: number | null;
+	set: (value: number | null) => void;
+	start: () => void;
+	done: () => void;
+}
+
 ////////////////////////////////////////////////////////////////////////////////
 
 /**
@@ -26,7 +33,7 @@ export function useProgressState(props: ProgressStateProps = {}) {
 /**
  * Subscribes to a provided progress instance and provides methods to update it.
  */
-export function useProgress(progress: Progress) {
+export function useProgress(progress: Progress): ProgressState {
 	const subscribe = useCallback(
 		(fn: () => void) => progress.subscribe(fn),
 		[progress],
