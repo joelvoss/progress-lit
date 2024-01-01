@@ -54,7 +54,7 @@ export class Progress {
 	private interval: number;
 	value: number | null = null;
 
-	constructor(options: ProgressStateProps) {
+	constructor(options?: ProgressStateProps) {
 		this.interval = options?.interval ?? 200;
 	}
 
