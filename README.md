@@ -5,9 +5,9 @@ client side route transition, e.g. when using Next.js
 (either `/pages` or `/app` router).
 
 **Bundle size:**
-- **CommonJS**: 2064 B (gzip: 979 B, brotli: 859 B)
-- **ESModule (modern)**: 1052 B (gzip: 491 B , brotli: 425 B)
-- **ESModule**: 2067 B (gzip: 979 B , brotli: 838 B)
+- **CommonJS**: 2250 B (gzip: 1047 B, brotli: 906 B)
+- **ESModule (modern)**: 1189 B (gzip: 556 B , brotli: 488 B)
+- **ESModule**: 2245 B (gzip: 1048 B , brotli: 912 B)
 
 
 ## Requirements
