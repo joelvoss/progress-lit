@@ -25,9 +25,6 @@ $ yarn add progress-lit
 
 ## Examples
 
-
-### Basic example
-
 ```tsx
 import * as React from 'react';
 import { Progress, useProgress } from 'progress-lit';
