@@ -1,5 +1,21 @@
 # progress-lit
 
+**🚨 ARCHIVED REPOSITORY - NO LONGER MAINTAINED 🚨**
+
+This repository has been archived and is no longer maintained. The library does not support the Next.js App Router and React Server Components paradigm, making it incompatible with modern Next.js applications.
+
+**Why is this archived?**
+- Only works with the legacy Next.js Pages Router
+- Does not support React Server Components
+- Incompatible with the current Next.js App Router architecture
+
+**For existing users:**
+- This archived repository can serve as a reference implementation if you're still using the old Next.js Pages Router
+- Consider migrating to modern Next.js patterns or implementing your own progress solution for App Router applications
+- No further updates, bug fixes, or support will be provided
+
+---
+
 A controllable react progress bar. Useful for showing the progress of a
 client side route transition, e.g. when using Next.js
 (either `/pages` or `/app` router).
